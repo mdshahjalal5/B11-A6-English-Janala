@@ -14,7 +14,24 @@
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
   </head>
 
+  <style>
+    .active {
+      color: white;
+      background: red;
+    }
+  </style>
   <body class="mx-auto w-11/12">
+    <div
+      class="mt-10 max-w-[300x] p-3 py-9 rounded text-center shadow-xl space-y-3"
+    >
+      <div class="flex justify-center">
+        <img src="assets/alert-error.png" alt="" />
+      </div>
+      <p class="text-gray-500">
+        এই Lesson এ এখনো কোন Vocabulary যুক্ত করা হয়নি।
+      </p>
+      <h1 class="text-xl font-medium">নেক্সট Lesson এ যান</h1>
+    </div>
     <header class="mt-10">
       <nav class="flex justify-between border-b-2 pb-4 border-gray-300">
         <div class="flex gap-2 items-center">
@@ -28,6 +45,65 @@
           <button class="btn btn-outline btn-info">LOGOUT</button>
         </div>
       </nav>
+      <!-- banner -->
+
+      <div
+        class="flex items-center x:items-start flex-row-reverse justify-between mt-5 xl:px-8"
+      >
+        <div class="text-center lg:text-left">
+          <img src="assets/hero-student.png" alt="" />
+        </div>
+
+        <div class="xl:space-y-5 space-y-3">
+          <h2 class="text-2xl xl:text-4xl font-semibold">
+            <span class="text-sky-500">Language</span> is Easy!!
+          </h2>
+          <p class="max-w-3xl xl:text-xl">
+            আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+            আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
+            অন্য একটি Level এ
+          </p>
+
+          <fieldset class="fieldset">
+            <input
+              type="email"
+              class="input input-info"
+              placeholder="Type your name"
+            />
+            <input
+              type="password"
+              class="input input-info"
+              placeholder="Password"
+            />
+            <button class="btn btn-outline btn-info mt-4 max-w-[320px]">
+              Get Started
+            </button>
+          </fieldset>
+        </div>
+      </div>
     </header>
+    <main>
+      <section class="">
+        <h2 class="text-2xl xl:text-4xl font-semibold">
+          <span class="text-sky-500">Let's</span> Learn Vocabularies
+        </h2>
+        <div id="lessons_btn" class="flex gap-3 mt-7"></div>
+        <div
+          id="video_container"
+          class="space-y-1 mt-7 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-x-5 min-h-[70vh]"
+        >
+          <div
+            class="border p-4 rounded-xl text-center space-y-2 bg-gray-100 shadow-xl border-orange-500 max-w-2xl"
+          >
+            <p class="text-xs text-gray-400">
+              আপনি এখনো কোন Lesson Select করেন ন
+            </p>
+            <p>একটি Lesson Select করুন।</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="JS/utility.js"></script>
+    <script src="JS/index.js"></script>
   </body>
 </html>
