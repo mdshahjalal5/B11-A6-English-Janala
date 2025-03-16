@@ -4,6 +4,16 @@
 - **GitHub URL:** https://github.com/mdshahjalal5/B11-A6-English-Janala
 - **Local Directory:** /run/media/sj/developer/web/L1B11/6-mi/ass/B11-A6-English-Janala
 - **Username:** sj
+- **Created On:** 16/03/2025 12:41 অপরাহ্ণ রবি GMT+6
+- **Location:** Sharifpur, Gazipur, Dhaka
+
+
+# B11-A6-English-Janala
+
+## Project Details
+- **GitHub URL:** https://github.com/mdshahjalal5/B11-A6-English-Janala
+- **Local Directory:** /run/media/sj/developer/web/L1B11/6-mi/ass/B11-A6-English-Janala
+- **Username:** sj
 - **Created On:** 15/03/2025 07:05 পূর্বাহ্ণ শনি GMT+6
 - **Location:** Sharifpur, Gazipur, Dhaka
 
